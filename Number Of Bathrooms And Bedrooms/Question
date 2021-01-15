@@ -1,0 +1,28 @@
+Find the average number of bathrooms and bedrooms for each city’s property types. Output the result along with the city name and the property type.
+
+Tables: airbnb_search_details
+
+------------------------------
+
+airbnb_search_details:
+id	int64
+price	float64
+property_type	object
+room_type	object
+amenities	object
+accommodates	int64
+bathrooms	int64
+bed_type	object
+cancellation_policy	object
+cleaning_fee	bool
+city	object
+host_identity_verified	object
+host_response_rate	object
+host_since	object
+neighbourhood	object
+number_of_reviews	int64
+review_scores_rating	float64
+zipcode	int64
+bedrooms	int64
+beds	int64
+
