@@ -1,0 +1,17 @@
+Write a query that calculates the difference between the highest salaries across the marketing and engineering departments. Output just the difference in salaries.
+
+Tables: db_employee,db_dept
+
+------------------------------
+
+db_employee:
+id	int64
+first_name	object
+last_name	object
+salary	int64
+department_id	int64
+
+db_dept:
+id	int64
+department	object
+

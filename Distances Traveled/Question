@@ -1,0 +1,15 @@
+Find the top 10 users that have traveled the greatest distance. Output their names and total distance traveled.
+
+Tables: lyft_rides_log,lyft_users
+
+------------------------------
+
+lyft_rides_log:
+id	int64
+user_id	int64
+distance	int64
+
+lyft_users:
+id	int64
+name	object
+
