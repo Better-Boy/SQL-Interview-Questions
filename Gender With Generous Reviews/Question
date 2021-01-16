@@ -1,0 +1,19 @@
+Write a query to find which gender gives a higher average review score as a guest. Output the gender and their average review score.
+
+Tables: airbnb_reviews,airbnb_guests
+
+------------------------------
+
+airbnb_reviews:
+from_user	int64
+to_user	int64
+from_type	object
+to_type	object
+review_score	int64
+
+airbnb_guests:
+guest_id	int64
+nationality	object
+gender	object
+age	int64
+
