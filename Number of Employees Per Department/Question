@@ -1,0 +1,24 @@
+Find the number of employees in each department.
+Output the department name along with the corresponding number of employees.
+Sort records based on the number of employees in descending order.
+
+Tables: employee
+
+------------------------------
+
+employee:
+id	int64
+first_name	object
+last_name	object
+age	int64
+sex	object
+employee_title	object
+department	object
+salary	int64
+target	int64
+bonus	int64
+email	object
+city	object
+address	object
+manager_id	int64
+

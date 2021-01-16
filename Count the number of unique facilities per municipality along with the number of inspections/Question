@@ -1,0 +1,30 @@
+Count the number of unique facilities per municipality along with the number of inspections.
+Output the result along with the number of inspections per each municipality.
+Sort the result based on the number of inspections in descending order.
+
+Tables: los_angeles_restaurant_health_inspections
+
+------------------------------
+
+los_angeles_restaurant_health_inspections:
+serial_number	object
+activity_date	object
+facility_name	object
+score	int64
+grade	object
+service_code	int64
+service_description	object
+employee_id	object
+facility_address	object
+facility_city	object
+facility_id	object
+facility_state	object
+facility_zip	object
+owner_id	object
+owner_name	object
+pe_description	object
+program_element_pe	int64
+program_name	object
+program_status	object
+record_id	object
+

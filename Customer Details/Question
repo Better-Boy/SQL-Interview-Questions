@@ -1,0 +1,24 @@
+Find the details of each customer regardless of whether the customer made an order not.
+Output customer's first name, last name, and the city along with the corresponding order details.
+Sort records based on the customer's first name and the order details in ascending order.
+
+Tables: customers,orders
+
+------------------------------
+
+customers:
+id	int64
+first_name	object
+last_name	object
+city	object
+address	object
+phone_number	object
+
+orders:
+id	int64
+cust_id	int64
+order_date	object
+order_quantity	int64
+order_details	object
+order_cost	int64
+
